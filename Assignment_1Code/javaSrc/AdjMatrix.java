@@ -105,7 +105,7 @@ public class AdjMatrix <T extends Object> implements FriendshipGraph<T>
         for(int i = 0; i < adjArray.length; i++)
             for(int j = 0; j < adjArray.length;  j++)
                 if(adjArray[i][j])
-                    os.println(labels.get(i) +"" + labels.get(j));
+                    os.println(labels.get(i) + " " + labels.get(j));
     } // end of printEdges()
     
     
